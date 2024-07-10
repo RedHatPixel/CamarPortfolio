@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <!-- Website Information -->
+    <meta name="description" content="Personal Portfolio"/>
+    <meta name="keywords" content="Camar, Mobarahk, Portfolio"/>
+    <meta name="author" content="Mobarahk Camar"/>
+    <meta http-equiv="refresh" content="2000"/>
+
+    <!-- Google font; Squada One, Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://fonts.googleapis.com/css2?family=Squada+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet/">
+
+    <!-- Font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Website title -->
+    <title>Camar Portfolio</title>
+
+    <!-- Link elements -->
+    <link rel="stylesheet" href="assets/css/style.css"/>
+    
+</head>
+<body>
+
+    <header id="main-navigation">
+        <a href="#" class="logo">
+            <img src="assets/img/Logo.jpg" alt="RedHatPixel logo">
+            <h4>RedHat<span>Pixel</span></h4>
+        </a>
+
+        <div id="setting">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+
+        <nav id="nav-content">
+            <a href="#about">About</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+            <button class="round-btn">Resume</button>
+        </nav>     
+    </header>
+
+    <main id="hero" class="all-center">
+        <section id="hero-text">
+            <h1><div id="hand-wave">👋</div> Hi, I'm Mobarahk Camar</h1>
+            <h2 id="typing" class="highlight">FRONT-END</h2>
+            <p>Welcome to my portfolio! I am a passionate and dedicated student with a strong foundation in HTML, CSS, and JavaScript, striving to build a career in front-end development. Feel free to connect with me for exciting opportunities in the world of web development.</p>
+        </section>
+        <section id="hero-img">
+            <img src="assets/img/Graphic-Animation-unscreen.gif" 
+            alt="GIF animation">
+        </section>
+    </main>
+
+    <section id="banner" class="all-center">
+        <h1 class="animate-on-scroll">من طلب العلى سهر الليالي</h1>
+        <blockquote class="animate-on-scroll">“The road to success is paved with hard work.”</blockquote>
+    </section>
+
+    <section id="about" class="all-center">
+        <div id="about-text" class="animate-on-scroll">
+            <h2 class="highlight">ABOUT ME</h2>
+            <p>My name is Mobarahk Camar, and I am an IT student focusing to master web development with hope to participate on IT Industry. I have a keen eye for design and a dedication to creating user-friendly, responsive, and visually appealing websites. I am always eager to learn new technologies and improve my skills.<br><br>In my free time, I enjoy exploring the latest trends in web development, experimenting with animations, and creating personal projects. I am excited to bring my creativity and technical expertise to new challenges and collaborate with like-minded professionals to build amazing digital experiences.</p>
+            
+            <div id="selector" class="all-center">
+                <button class="select-btn active">Education</button>
+                <button class="select-btn">Skills</button>
+            </div>
+            <div id="selected">
+                <div class="select-modal all-center education active">
+                    <div class="educ-box all-center">
+                        <div class="educ-img">
+                            <img src="assets/img/CVSU_logo.png" alt="CVSU logo">
+                        </div>
+                        <div class="educ-info">
+                            <span class="title">Cavite State University</span>
+                            <span>2023 - current</span>
+                            <p>Bachelor of Science in Information Technology</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="select-modal skills">
+                    <ul id="skill-box">
+                        <span><li>Web development</li></span>
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                        </ul>
+                        <span><li>Designer</li></span>
+                        <ul>
+                            <li>Canva</li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <aside id="about-aside">
+            <div id="github" class="animate-on-scroll">
+                <a href="https://github.com/RedHatPixel" target="_blank" class="logo">
+                    <i class="fa-brands fa-github"></i>
+                    <h4>RedHatPixel</h4>
+                </a>
+                <p>👋 Hi there!, I'm a passionate IT student with a keen interest in learning and mastering 💻programming.🎯My goals is to become proficient in coding.</p>
+                <a href="https://github.com/RedHatPixel" target="_blank"  class="link-btn">Visit Github</a>
+            </div>
+        </aside>
+    </section>
+
+    <section id="portfolio" class="all-center">
+        <h2 class="highlight">Portfolio</h2>
+        <p>Explore my projects to see how I bring ideas to life through code.</p>
+        <div id="container" class="all-center">
+            <div class="project-box animate-on-scroll">
+                <div class="proj-img">
+                    <img src="assets/img/IBook IMG.png" alt="IBook Website Image">
+                </div>
+                <a href="https://redhatpixel.github.io/IBook/" target="_blank" class="link-btn">IBook July 2024</a>
+                <p>A template for a corporate website focused on book selling and online book reading. Features include a book catalog, responsive pages, and a smooth navigation.</p>
+            </div>
+            <div class="project-box animate-on-scroll">
+                <div class="proj-img">
+                    <img src="assets/img/Tic_Tac_Toe IMG.png" alt="IBook Website Image">
+                </div>
+                <a href="https://redhatpixel.github.io/tic-tac-toe/" target="_blank" class="link-btn">Tic Tac Toe June 2024</a>
+                <p>A two-player game where players take turns marking their symbol on a 3 by 3 grid, aiming to be the first to get three of their marks in a row, column, or diagonal.</p>
+            </div>
+            <div class="project-box animate-on-scroll">
+                <div class="proj-img">
+                    <img src="assets/img/Simon_says IMG.png" alt="IBook Website Image">
+                </div>
+                <a href="https://redhatpixel.github.io/Simon-Says/" target="_blank" class="link-btn">Simon Says June 2024</a>
+                <p>A game of memory where players repeat sequences of colors. The features are random sequence generation, user input tracking, and increasing difficulty.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="all-center">
+        <h2 class="highlight animate-on-scroll">My Contact</h2>
+        <p class="animate-on-scroll">I'd love to hear from you! Drop me a message and dm me below.</p>
+
+        <div id="social-media" class="all-center animate-on-scroll">
+            <a href="https://github.com/RedHatPixel" target="_blank" class="media"><i class="fa-brands fa-square-github"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=100074864673092" target="_blank" class="media"><i class="fa-brands fa-square-facebook"></i></a>
+            <a href="https://www.linkedin.com/in/mobarahk-camar-9070362b3?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=androp_app" target="_blank" class="media"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="mailto:camar.mobarahk0@gmail.com" class="media"><i class="fa-solid fa-square-envelope"></i></a>
+            <a href="tel:639925791428" class="media"><i class="fa-solid fa-square-phone"></i></a>
+        </div>
+    </section>
+
+    <footer class="all-center">
+        <a href="#" class="logo">
+            <img src="assets/img/Logo.jpg" alt="RedHatPixel logo">
+            <h4>RedHat<span>Pixel</span></h4>
+        </a>
+        <p>&copy; 2024 RedHatPixel - All rights reserved</p>
+    </footer>
+
+    <!-- script -->
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
