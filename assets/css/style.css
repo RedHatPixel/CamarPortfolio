@@ -161,7 +161,7 @@ button:hover {
     width: 100%;
     height: 80px;
     padding: 0 10%;
-    position: relative;
+    position: sticky;
     display: flex;
     background-color: var(--hero-bg);
     justify-content: space-between;
@@ -172,10 +172,10 @@ button:hover {
     z-index: 1000;
     transition: .3s;
     animation: HeroAnimate 1s forwards 0s;
+    overflow: hidden;
 }
 
 #main-navigation.sticky {
-    position: sticky;
     background-color: transparent;
     top: 0; left: 0;
     padding-top: 5px;
@@ -195,7 +195,7 @@ button:hover {
 }
 
 #main-navigation.scrollDown {
-    top: -100%;
+    transform: translateY(-100px);
 }
 
 /* logo design */
@@ -364,7 +364,7 @@ button:hover {
 }
 
 #hero-text h1 {
-    font-size: clamp(2.2rem, 6vw, 3.4rem);
+    font-size: clamp(2rem, 6vw, 3.4rem);
     animation: HeroAnimate 1.5s forwards 0s;
 }
 
@@ -380,7 +380,7 @@ button:hover {
 }
 
 #hero-text h2 {
-    font-size: clamp(2rem, 6vw, 3.4rem) !important;
+    font-size: clamp(1.9rem, 6vw, 3.2rem) !important;
     animation: HeroAnimate 2s forwards 0s;
 }
 
@@ -411,11 +411,13 @@ button:hover {
 
 /* BANNER SECTION */
 #banner {
-    min-height: 200px;
+    width: 100%;
+    min-height: 300px;
+    padding: 0 10px;
 }
 
 #banner h1 {
-    font-size: clamp(2.5rem, 6vw, 3.4rem);
+    font-size: clamp(2rem, 6vw, 4rem);
     font-weight: 900;
 }
 
