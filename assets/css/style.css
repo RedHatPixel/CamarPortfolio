@@ -715,3 +715,17 @@ footer.all-center {
         font-size: 12px !important;
     }
 }
+
+@media screen and (max-width: 1024px) and (orientation: portrait) {
+    #banner h1 {
+    font-size: clamp(.6em, 6vw, 2em);
+    }
+
+    #banner blockquote {
+        font-size: .2em;
+    }
+    
+    .size-normal, #about-text > p {
+        font-size: .4rem;
+    }
+}
