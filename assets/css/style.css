@@ -4,11 +4,11 @@
 
 /* Downloaded font family */
 @font-face {
-    font-family: "Squada One", sans-serif;
+    font-family: "Squada One";
     src: url(../font/Squada_One/SquadaOne-Regular.ttf);
 }
 @font-face {
-    font-family: "Poppins", sans-serif;
+    font-family: "Poppins";
     src: url(../font/Poppins/Poppins-Light.ttf);
 }
 
@@ -66,6 +66,10 @@ button:hover {
 }
 
 /* ClassName design */
+.size-normal {
+    font-size: 16px !important;
+}
+
 .link-btn {
     font-family: "Squada One", Arial, Helvetica, sans-serif;
     text-decoration: underline;
@@ -380,13 +384,14 @@ button:hover {
 }
 
 #hero-text h2 {
-    font-size: clamp(1.9rem, 6vw, 3.2rem) !important;
+    font-size: clamp(1.8rem, 6vw, 3.2rem) !important;
     animation: HeroAnimate 2s forwards 0s;
 }
 
 #hero-text p {
     font-size: 14px;
-    padding: 10px 0;
+    text-align: left;
+    padding: 20px 0;
     animation: HeroAnimate 2.5s forwards 0s;
 }
 
@@ -422,7 +427,8 @@ button:hover {
 }
 
 #banner blockquote {
-    font-size: 14px;
+    text-align: center;
+    font-size: 12px !important;
 }
 
 /* ABOUT SECTION */
@@ -443,8 +449,9 @@ button:hover {
 }
 
 #about-text > p {
-    text-align: center;
-    font-size: 16px;
+    font-size: 14px;
+    text-align: left;
+    text-indent: 20px;
     padding: 20px 0;
 }
 
@@ -504,7 +511,7 @@ button:hover {
     box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.2);
 }
 
-.educ-info p, #skill-box ul {
+.educ-info p, #skill-box ul, #about .size-normal {
     font-size: 14px;
     text-align: left;
 }
@@ -532,7 +539,7 @@ button:hover {
 
 #about-aside {
     min-width: 300px;
-    width: 400px;
+    width: 500px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -581,10 +588,10 @@ button:hover {
     background-color: var(--dark-bg);
 }
 
-#portfolio > p {
-    font-size: 16px;
+#portfolio .size-normal {
+    text-align: center;
     color: #FFF;
-    padding: 10px 20px;
+    padding: 10px;
 }
 
 #container {
@@ -645,9 +652,9 @@ button:hover {
     min-height: 500px;
 }
 
-#contact > p {
-    font-size: 16px;
-    padding: 10px 20px;
+#contact .size-normal {
+    text-align: center;
+    padding: 10px;
 }
 
 #social-media {
@@ -702,5 +709,9 @@ footer.all-center {
     footer.all-center {
         justify-content: space-around;
         flex-direction: column;
+    }
+    
+    .size-normal {
+        font-size: 12px !important;
     }
 }
