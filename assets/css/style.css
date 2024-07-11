@@ -67,7 +67,7 @@ button:hover {
 
 /* ClassName design */
 .size-normal {
-    font-size: 1rem;
+    font-size: 14px;
 }
 
 .link-btn {
@@ -712,6 +712,6 @@ footer.all-center {
     }
     
     .size-normal {
-        font-size: 12px !important;
+        font-size: 12px;
     }
 }
