@@ -348,7 +348,7 @@ button:hover {
 #hero {
     flex-direction: row;
     min-height: 550px;
-    height: 90dvh;
+    height: 90vh;
     flex-wrap: wrap;
     padding: 20px;
     background: var(--hero-bg) url(../img/wave.svg);
