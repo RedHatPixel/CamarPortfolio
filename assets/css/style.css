@@ -35,6 +35,7 @@
 
 html {
     scroll-behavior: smooth;
+    font-size: 14px;
 }
 
 body {
@@ -389,7 +390,7 @@ button:hover {
 }
 
 #hero-text p {
-    font-size: 14px;
+    font-size: 1rem;
     text-align: left;
     padding: 20px 0;
     animation: HeroAnimate 2.5s forwards 0s;
@@ -428,7 +429,7 @@ button:hover {
 
 #banner blockquote {
     text-align: center;
-    font-size: 12px !important;
+    font-size: .8rem !important;
 }
 
 /* ABOUT SECTION */
@@ -449,7 +450,7 @@ button:hover {
 }
 
 #about-text > p {
-    font-size: 14px;
+    font-size: 1rem;
     text-align: left;
     text-indent: 20px;
     padding: 20px 0;
@@ -512,13 +513,13 @@ button:hover {
 }
 
 .educ-info p, #skill-box ul, #about .size-normal {
-    font-size: 14px;
+    font-size: 1rem;
     text-align: left;
 }
 
 .educ-info span, .skills span {
     font-family: "Squada One", Arial, Helvetica, sans-serif;
-    font-size: 18px;
+    font-size: 1.4rem;
 }
 
 .educ-info span.title:nth-of-type(1) {
@@ -527,7 +528,7 @@ button:hover {
 
 .skills #skill-box {
     color: #000;
-    font-size: 18px;
+    font-size: 1.4rem;
     padding-left: 30px;
     list-style-type: upper-roman;
     font-size: 12px;
@@ -575,11 +576,11 @@ button:hover {
 
 #github p {
     text-align: left;
-    font-size: 14px;
+    font-size: 1rem;
 }
 
 #github .link-btn {
-    font-size: 24px;
+    font-size: 1.6rem;
 }
 
 #portfolio {
@@ -638,12 +639,12 @@ button:hover {
 .project-box a {
     display: inline-block;
     padding-left: 20px;
-    font-size: 22px;
+    font-size: 1.5rem;
 }
 
 .project-box p {
     padding: 4px 20px 8px; 
-    font-size: 14px;
+    font-size: 1rem;
 }
 
 /* CONTACT SECTION */
@@ -702,7 +703,7 @@ footer.all-center {
     min-height: 100px;
     flex-direction: row;
     justify-content: space-evenly;
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 @media(max-width: 500px) {
@@ -712,7 +713,7 @@ footer.all-center {
     }
     
     .size-normal {
-        font-size: 12px !important;
+        font-size: .8rem !important;
     }
 }
 
