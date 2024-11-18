@@ -382,7 +382,7 @@ blockquote::after {
 #hero {
     min-height: 550px;
     height: 90vh;
-    background: var(--hero-bg) url(../img/wave.svg);
+    background: var(--hero-bg) url(../img/_wave.svg);
     background-position: bottom -4px left;
     background-repeat: no-repeat;
     background-size: 100%;
